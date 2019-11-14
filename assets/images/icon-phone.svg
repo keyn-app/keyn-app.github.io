@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="123px" viewBox="0 0 65 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon-phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Onepager-A" transform="translate(-528.000000, -1980.000000)" fill="#FFB72F">
+            <g id="How" transform="translate(0.000000, 1598.000000)">
+                <g id="2" transform="translate(430.000000, 382.000000)">
+                    <path d="M109,0 L152,1.77635684e-15 C158.075132,6.6037315e-16 163,4.92486775 163,11 L163,111.6875 C163,117.762632 158.075132,122.6875 152,122.6875 L109,122.6875 C102.924868,122.6875 98,117.762632 98,111.6875 L98,11 C98,4.92486775 102.924868,9.99776789e-15 109,8.8817842e-15 Z M130.5,118.625 C134.089851,118.625 137,115.714851 137,112.125 C137,108.535149 134.089851,105.625 130.5,105.625 C126.910149,105.625 124,108.535149 124,112.125 C124,115.714851 126.910149,118.625 130.5,118.625 Z M102.0625,14.625 L102.0625,101.5625 L158.9375,101.5625 L158.9375,14.625 L102.0625,14.625 Z" id="Icon-phone"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

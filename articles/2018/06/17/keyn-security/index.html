@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang='en-uk'>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='x-ua-compatible'>
+<title>
+Keyn security
+</title>
+<meta content='A brief primer on why Keyn is more secure than keep using passwords.' name='description'>
+<meta content='index,follow' name='robots'>
+<meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'>
+<!-- / stylesheets -->
+<link href="/assets/stylesheets/application.css" rel="stylesheet" />
+<meta content='https://keyn.app/articles/2018/06/17/keyn-security/' property='og:url'>
+<meta content='website' property='og:type'>
+<meta content='Keyn' property='og:site_name'>
+<meta content='Keyn security' property='og:title'>
+<meta content='A brief primer on why Keyn is more secure than keep using passwords.' property='og:description'>
+<meta content='https://keyn.app/assets/images/using-keyn-as-password-manager.png' property='og:image'>
+<!-- / twitter card data -->
+<meta content='summary' name='twitter:card'>
+<meta content='Keynapp' name='twitter:site'>
+<meta content='Keyn security' name='twitter:title'>
+<meta content='A brief primer on why Keyn is more secure than keep using passwords.' name='twitter:description'>
+<meta content='Keynapp' name='twitter:creator'>
+<!-- / Google + -->
+<meta content='Keyn security' itemprop='name'>
+<meta content='A brief primer on why Keyn is more secure than keep using passwords.' itemprop='description'>
+<meta content='https://keyn.app/assets/images/using-keyn-as-password-manager.png' itemprop='image'>
+<link href='/humans.txt' rel='author' type='text/plain'>
+<link href='site.webmanifest' rel='manifest'>
+<!-- / favicons -->
+<link href='apple-touch-icon.png' rel='/apple-touch-icon' sizes='180x180'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16'>
+<link color='#4722c3' href='/safari-pinned-tab.svg' rel='mask-icon'>
+<meta content='#4722c3' name='msapplication-TileColor'>
+<meta content='#4722c3' name='theme-color'>
+<!-- / fonts -->
+<link href='https://fonts.googleapis.com/css?family=Montserrat:500,700' rel='stylesheet'>
+</head>
+<body class='blog'>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<nav class='navbar navbar-expand-lg fixed-top justify-content-end' id='navigationBar'>
+<input class='d-none mb-md-4' id='lang' onclick='window.location.href = &#39;/2018-06-17-keyn-security.html&#39;' src='/assets/images/flag.svg' type='image' width='20px'>
+<input class='back visible' onclick='window.location.href = &#39;/blog&#39;' src='/assets/images/drop-down.svg' type='image'>
+<a class='navbar-brand my-auto' href='/#landing'>
+<img src="/assets/images/logo.svg" alt="keyn" class="logo" width="80px" />
+</a>
+<button aria-controls='navbarSupportedContent1' aria-expanded='false' class='navbar-toggler' data-target='#navbarSupportedContent1' onclick='toggleNav()'>
+<div id='nav-icon'>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</button>
+<div class='justify-content-end text-right pull-right' id='navbarSupportedContent1'>
+<ul class='navbar-nav mt-2 mt-md-0 navigation'>
+<li class='nav-item mx-xl-1'>
+<a href="/#why" class="nav-link why-nav">Why</a>
+</li>
+<li class='nav-item mx-xl-1'>
+<a href="/#how" class="nav-link how-nav">How</a>
+</li>
+<li class='nav-item mx-xl-1'>
+<a href="/#pricing" class="nav-link pricing-nav">Pricing</a>
+</li>
+<li class='nav-item mx-xl-1'>
+<a href="/#team" class="nav-link team-nav">Team</a>
+</li>
+<li class='nav-item ml-xl-2 ml-lg-1'>
+<a class='active blog nav-link' href='/blog'>Blog</a>
+</li>
+<li class='nav-item ml-xl-1 mr-xl-3'>
+<a href="/faq/" class="nav-link faq">FAQ</a>
+</li>
+<li class='nav-item mx-xl-1 ml-lg-2'>
+<a href="/go/" class="nav-link try">Try</a>
+</li>
+</ul>
+</div>
+<div class='sidenav d-block d-lg-none'>
+<ul class='navbar-nav text-center'>
+<li class='nav-item my-3'>
+<a href="/#why" class="nav-link why-nav">Why</a>
+</li>
+<li class='nav-item my-3'>
+<a href="/#how" class="nav-link how-nav">How</a>
+</li>
+<li class='nav-item my-3'>
+<a href="/#pricing" class="nav-link pricing-nav">Pricing</a>
+</li>
+<li class='nav-item my-3'>
+<a href="/#team" class="nav-link team-nav">Team</a>
+</li>
+<li class='nav-item my-3'>
+<a class='active nav-link' href='/blog'>Blog</a>
+</li>
+<li class='nav-item my-3'>
+<a href="/faq/" class="nav-link faq">FAQ</a>
+</li>
+<li class='nav-item my-3 d-none d-md-inline'>
+<a href="/go/" class="nav-link try">Try</a>
+</li>
+<li class='nav-item my-3 d-inline d-md-none'>
+<a class='download nav-link try' href='https://apps.apple.com/app/id1361749715'>
+<img src='assets/images/app-store.svg' width='50%'>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+
+<div class='main'>
+<div class='container-fluid' id='color-container'>
+<div class='container blog markdown'>
+<div class='row pt-5'>
+<div class='col col-lg-8 offset-lg-2 mt-lg-5 px-lg-5 pt-5'>
+<h2>Keyn security</h2>
+</div>
+</div>
+<div class='row pt-4 align-items-center px-lg-5 d-lg-none'>
+<div class='col d-inline-flex px-md-4' id='author-card'>
+<div class='author-photo'>
+<img src="/assets/images/bas.png" alt="Bas" class="img-fluid" width="70px" />
+</div>
+<ol class='pl-3 my-auto'>
+<li class='name'>
+<a href="https://twitter.com/keynapp">Bas</a>
+</li>
+<li class='function'>
+co-founder @ Keyn
+</li>
+<li class='date'>
+<time class='meta-date' datetime='2018-06-17 00:00:00 UTC'>
+Jun 17, 2018
+</time>
+</li>
+</ol>
+</div>
+</div>
+<div class='row'>
+<div class='col col-lg-8 offset-lg-2'>
+<div class='row pt-3'>
+<div class='col px-lg-5'>
+<article>
+
+<p>While we are working on a whitepaper that will have a more in-depth description of the architecture and a more extensive security analysis, I thought it'd be worth writing a primer on why Keyn is more secure than using passwords.</p>
+
+<h3 id="password-authentication">Password authentication</h3>
+<p>Passwords are one of the biggest practical problems facing security engineers today. In fact, as the usability researcher Angela Sasse puts it:</p>
+
+<blockquote>
+  <p>It's hard to think of a worse authentication mechanism than passwords, given what we know about human memory: people can't remember infrequently-used, frequently-changed, or many similar items; we can't forget on demand; recall is harder than recognition; and non-meaningful words are more difficult.[1]</p>
+</blockquote>
+
+<p>This quote encompasses both the usability and security issues that come along with passwords, which are at variance with each other: to achieve reasonable security with password authentication, the passwords should be unique per website, sufficiently long and difficult to guess, all of which contribute to a lot of different passwords that are impossible to remember.
+This isn't breaking news: security researchers have known for decades that passwords aren't the best way of authenticating ourselves. There are sufficient cryptographic protocols available that allow for more secure authentication, so why are we still using them for almost every website?</p>
+
+<p>I'm not really sure, but I think it has to do with the fact that the internet wasn't invented in a day, but has grown to be an ecosystem in the past 50 years where not every design choice is the most optimal one, especially for security, which wasn't really an issue in the early days of the internet.
+The fact that the whole world uses email as a primary means of online communication while it doesn't use any encryption is a similar pattern.</p>
+
+<p>So what's the real risk with using passwords? What usually happens is:</p>
+
+<ol>
+  <li>A website gets hacked. This happens all the time and there's not much you can do about it (unless you're the owner of a big website).</li>
+  <li>Its database with password hashes is dumped on Pastebin or sold on the darkweb.</li>
+  <li>Dictionary and bruteforcing attacks are run on the password database, which implies that:
+    <ul>
+      <li>Predictable passwords are cracked, independent of whether they are long or short. Unfortunately people are more predictable than they think (you are not the first to think that <em>12345qwerty12345</em> is hard to guess..). (<a href="https://blog.preempt.com/weak-passwords">~35% for Linkedin</a>)</li>
+      <li>Passwords that are too short or use a small character set are cracked (anything less than 10 character is definitely at risk). (<a href="https://blog.preempt.com/weak-passwords">~65% for Linkedin</a>)</li>
+      <li>In some cases it doesn't even matter how good your password is, because the website messes up. This result may be that passwords can be read in plaintext (<a href="https://techcrunch.com/2018/05/03/twitter-password-bug/?guccounter=1">Twitter</a>) or cracked easily (<a href="https://nakedsecurity.sophos.com/2013/11/04/anatomy-of-a-password-disaster-adobes-giant-sized-cryptographic-blunder/">Adobe</a>).</li>
+    </ul>
+  </li>
+  <li>If your password gets cracked and you use this password for other websites as well, the attacker has access to your account on those websites.</li>
+</ol>
+
+<p>Anyway, it usually doesn't take a lot of effort for us to convince people that password authentication is unusable or insecure. Most people kind of know that using <em>mycat'sname123</em> as a password for almost every website isn't very secure, but just do it anyway because it's too much trouble to set up a more secure password system for themselves. And that's exactly why we think that Keyn may be a solution for a lot of people :).</p>
+
+<h3 id="time-for-a-change">Time for a change</h3>
+<p>We believe that the time for change is now, mainly due to the fact that smartphones have become commonplace and are more and more equipped with advanced biometric authentication systems and trusted execution environments. Keyn leverages this by allowing users to log into websites with the biometric authentication system of their phone. At least that's what the user experience should be.</p>
+
+<p>With this user experience in mind, there are multiple ways to design the authentication process:</p>
+
+<h6 id="strong-authentication">Strong authentication</h6>
+<p>Strong authentication means that no secret (such as a password) is sent over a communication channel. Password authentication is obviously not strong, since the password needs to be sent to the server, where it is being checked.
+There are various protocols that can accomplish strong authentication, for example challenge-response protocols. This means a challenge is sent by the server to the client, who applies a cryptographic operation on the challenge with a secret only the client knows, and sends back the response. If the response is correct, access is granted.
+In the new W3C <a href="https://www.w3.org/TR/webauthn/">WebAuthN</a> candidate recommendation, strong authentication is used for the 'logging in with smartphone' use case described above.</p>
+
+<h6 id="password-authentication-1">Password authentication</h6>
+<p>In this approach, a unique (pseudo-)random password is generated for each website on the mobile device. When a user wants to log in, a request is sent to the mobile device. If the request is authorised by the user with his/her biometric traits, the password is sent back and automatically filled in the website using Javascript. Since this is sensitive information, it should be encrypted in transit.</p>
+
+<p>Of these two approaches, strong authentication is preferred because it's more secure. However, the mayor drawback is that it needs be implemented at the backend of the server as well, so cooperation of the owner of the website is needed. The consequence is that it will take time before this method can really replace password authentication.
+The advantage of the password-based approach is that it works out of the box for every website, while still offering considerable security improvements over 'manual' password authentication, because it uses sufficiently strong passwords that are unique per website.</p>
+
+<p>Keyn will use a combination of both approaches. That is, WebAuthN is used if the website conforms to the standard, where Keyn takes the <em>Authenticator</em> role of the standard. If WebAuthN is not available, the password-based approach is used. The good news is that the user doesn't have to worry about which of the methods is used under the hood, he always gets the most secure method available with exactly the same user experience.</p>
+
+<h3 id="architecture">Architecture</h3>
+<p>Since de WebAuthN is extensively explained in the proposed standard, I will focus on the security aspects of what makes Keyn unique: the password-based approach. To do so, it is worth discussing the key derivation scheme, password generation process, communication between browser and mobile device, security of stored data, 2-factor-authentication and backups.</p>
+
+<h5 id="key-derivation-scheme">Key derivation scheme</h5>
+<p>All cryptographic keys used in the architecture are derived from single 128-bit, randomly generated seed. From this seed, three keys are derived: the password key, the backup encryption key and the backup authentication keypair.
+The password key is used a seed to generate passwords, the backup encryption key and authentication keypair are used for backup purposes (what's in a name).</p>
+
+<h5 id="password-generation">Password generation</h5>
+<p>Since a username is unique on a website, the combination URL + username is used as salt to generate a unique cryptographic key, which is used as a seed for in a <a href="https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator">CSPRNG</a>. The bitstream that is produced by the CSPRNG is converted to a password. For the password generation, we use the process recommended by a researcher from Technical University Darmstadt, Moritz Horsch[2].
+Furthermore, we also use the concept of Password Policy Documents (PPDs) to make sure the password will be accepted by the service. This is XML-standard where the password requirements are specified for every website.</p>
+
+<h5 id="communication-protocol">Communication protocol</h5>
+<p>Besides sending the password from the client to the server, the password needs to be sent from the mobile device to the browser. All communication between browser and mobile device is end-to-end encrypted. Key establishment for a session is initiated by scanning a QR-code that is generated by the browser extension with your phone. We use Amazon SNS and SQS for simplicity and availability. Once the channels are set up for the session, all messages will be end-to-end encrypted.
+The protocol is formally verified using the <em>applied pi calculus</em>, to provide some assurance about its correctness.</p>
+
+<h5 id="security-of-stored-data">Security of stored data</h5>
+<p>All sensitive data is only stored locally on the mobile device. While iOS is arguably the most secure OS that is currently on the market, it too has vulnerabilities that can be exploited. However, the process to obtain someone's passwords becomes fundamentally different from the process I described in the beginning of this article. Instead of hacking a website and getting results for about a lot of users at once, the attack needs to hack one individual phone to get someone's passwords. That's a lot more work per password, making the criminal business model much less interesting.</p>
+
+<h5 id="factor-authentication">2-factor authentication</h5>
+<p>A method that greatly increases security is 2FA. A well-known method is <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm">TOTP</a>, which is for example used by Google Authenticator. 2FA usually implies you need at least two of the following:</p>
+
+<ul>
+  <li>Something you know</li>
+  <li>Something you are</li>
+  <li>Something you have</li>
+</ul>
+
+<p>In the case of Google Authenticator in combination with a password, this is something you know (the password) and something you have (the phone, which is the only place where the secret is stored).</p>
+
+<p>Since you don't have to remember any password with Keyn, something you know is out of the equation. You do need something you are (your biometric trait, such as fingerprint or face), but how about something you have?
+Since the passwords and cryptographic keys are only stored locally on your phone, you need to have that phone to authenticate. This would imply that Keyn is a 2FA method. However, you could argue that cracking the phone gives an attacker access to the secrets, defeating the 2FA part. For the whitepaper, We'll have to do some more research to come up with a definitive answer, but I'd argue that it would be a <em>1.5FA</em> at least.
+A considerable improvement, especially taking into account that you don't have to remember anything for it :).</p>
+
+<h5 id="backup">Backup</h5>
+<p>Since the data is only stored locally, losing your phone would mean losing access to all your accounts. Fortunately, we have come up with a backup scheme that fulfils the following requirements:</p>
+
+<ul>
+  <li>You don't need to remember something to retrieve your data.</li>
+  <li>The sensitive data isn't stored anywhere but your phone.</li>
+  <li>It's uncomplicated to use</li>
+</ul>
+
+<p>It works as follows:</p>
+
+<ol>
+  <li>When you install the app for the first time, twelve random words are shown. These twelve words represent the 128-bit seed where all cryptographic keys (including the passwords) are derived from.</li>
+  <li>You write these down on a piece of paper and store it securely (in a vault or something).</li>
+  <li>If you lose your phone, you can enter these twelve words into a freshly installed version of Keyn on your new phone and all passwords will be regenerated!</li>
+</ol>
+
+<p>While the secret is the seed (=the twelve words), you also need to know for which sites you had an account and for which username to regenerate the passwords (since these are used to generate the cryptographic key where the passwords is derived from). This meta-information is stored remotely, and automatically fetched when you enter the paper backup. The beauty of the scheme is that the data is encrypted with a key that is derived from the seed (so we nor anyone else can read it) and that getting or writing the data is only allowed when the request is signed with the authentication key (so it can't be overwritten by an evil hacker or bored teenager).</p>
+
+<h3 id="conclusion">Conclusion</h3>
+<p>I realise that there's a lot more to cover, we are working on this. Furthermore, the theory is only one side of the story. We will have a thorough security analysis of the app as well to make sure the code is robust. Nevertheless, I hope this primer gives you some confidence about Keyn's security. If not, we're happy to address you concerns!</p>
+
+<h3 id="references">References</h3>
+
+<p>[1] Ross J Anderson. <em>Security engineering: a guide to building dependable distributed systems</em>. John Wiley &amp; Sons, 2010.</p>
+
+<p>[2] Moritz Horsch. <em>Generating and Managing Secure Passwords for Online Accounts</em>. PhD thesis. Darmstadt: Technische Universität, 2018. URL: <a href="http://tuprints.ulb.tu-darmstadt.de/7003/">http://tuprints.ulb.tu-darmstadt.de/7003/</a>.</p>
+
+</article>
+</div>
+</div>
+<div class='row pb-5'>
+<div class='col py-4 px-lg-5'>
+<p class='share'>
+Share this article
+<a class='ml-3 social' href='https://www.facebook.com/dialog/feed?app_id=793253657465673&amp;caption=Keyn security&amp;picture=https://keyn.app/assets/images/using-keyn-as-password-manager.png&amp;name=“Keyn security”&amp;description=A brief primer on why Keyn is more secure than keep using passwords.&amp;display=popup&amp;link=https://keyn.app/articles/2018/06/17/keyn-security/&amp;redirect_uri=https://keyn.app/articles/2018/06/17/keyn-security/' target='blank'>
+<svg height='43px' version='1.1' viewbox='0 0 43 43' width='43px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g fill-rule='evenodd' fill='none' stroke-width='1' stroke='none'>
+<g>
+<circle cx='21.5' cy='21.5' fill='#4722C3' r='21.5' transform='translate(21.500000, 21.500000) rotate(-90.000000) translate(-21.500000, -21.500000) '></circle>
+<path d='M22.984607,32 L22.984607,21.9988291 L25.6471549,21.9988291 L26,18.5523702 L22.984607,18.5523702 L22.9891307,16.8273843 C22.9891307,15.9284948 23.0714989,15.4468492 24.3166349,15.4468492 L25.9811514,15.4468492 L25.9811514,12 L23.3182266,12 C20.1196255,12 18.9938009,13.6719034 18.9938009,16.4835191 L18.9938009,18.5527605 L17,18.5527605 L17,21.9992194 L18.9938009,21.9992194 L18.9938009,32 L22.984607,32 Z' fill='#FFFFFF' transform='translate(21.500000, 22.000000) rotate(-360.000000) translate(-21.500000, -22.000000) '></path>
+</g>
+</g>
+</svg>
+
+</a>
+<a class='ml-1 social' href='https://twitter.com/share?text=“Keyn security”&amp;url=https://keyn.app/articles/2018/06/17/keyn-security/&amp;via=Keynapp' target='blank'>
+<svg height='43px' version='1.1' viewbox='0 0 43 43' width='43px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g fill-rule='evenodd' fill='none' stroke-width='1' stroke='none'>
+<g transform='translate(21.500000, 21.500000) rotate(-90.000000) translate(-21.500000, -21.500000) '>
+<circle cx='21.5' cy='21.5' fill='#4722C3' r='21.5'></circle>
+<path d='M20.7400271,18.7242192 L20.7790451,19.3297587 L20.1287455,19.255611 C17.7616548,18.9713782 15.6937019,18.0074582 13.9378929,16.3885669 L13.0794974,15.5853003 L12.8583955,16.1784818 C12.3901798,17.5007823 12.6893176,18.8972305 13.6647671,19.8364346 C14.1850068,20.3554684 14.0679528,20.4296161 13.1705393,20.1206674 C12.8583955,20.0218038 12.5852697,19.9476561 12.5592577,19.98473 C12.4682157,20.0712356 12.7803596,21.1958089 13.0274734,21.6406951 C13.3656292,22.2585925 14.0549469,22.864132 14.8092944,23.2225125 L15.4465881,23.5067453 L14.6922405,23.5191033 C13.9639049,23.5191033 13.9378929,23.5314612 14.0159289,23.7909781 C14.2760487,24.5942448 15.3035222,25.4469432 16.4480495,25.8176817 L17.2544211,26.0771986 L16.5520975,26.472653 C15.511618,27.0411186 14.2890547,27.3624253 13.0664914,27.3871412 C12.4812217,27.3994991 12,27.4489309 12,27.4860048 C12,27.6095842 13.5867311,28.3016294 14.5101566,28.5735042 C17.280433,29.3767709 20.5709492,29.0307483 23.0420878,27.659016 C24.7978968,26.6827381 26.5537059,24.7425402 27.3730834,22.864132 C27.8152872,21.8631381 28.2574909,20.0341618 28.2574909,19.1567474 C28.2574909,18.5882818 28.2965089,18.5141341 29.0248445,17.8344469 C29.4540422,17.4389926 29.857228,17.0064644 29.935264,16.8828849 C30.0653239,16.6480838 30.0523179,16.6480838 29.3890123,16.858169 C28.2835029,17.2289074 28.127431,17.1794756 28.6736827,16.6233679 C29.0768684,16.2279136 29.5580902,15.5111526 29.5580902,15.3010674 C29.5580902,15.2639936 29.3630003,15.3257833 29.1418984,15.4370049 C28.9077905,15.5605844 28.3875508,15.7459536 27.9973711,15.8571751 L27.2950474,16.0672603 L26.6577538,15.659448 C26.306592,15.4370049 25.8123643,15.1898459 25.5522444,15.1156982 C24.8889388,14.9426869 23.8744714,14.9674028 23.2761957,15.16513 C21.6504466,15.7212377 20.6229732,17.1547597 20.7400271,18.7242192 Z' fill='#FFFFFF' transform='translate(21.000000, 22.000000) rotate(-270.000000) translate(-21.000000, -22.000000) '></path>
+</g>
+</g>
+</svg>
+
+</a>
+<a class='ml-1 social' href='http://www.linkedin.com/shareArticle?mini=true&amp;url=https://keyn.app/articles/2018/06/17/keyn-security/&amp;title=Keyn security&amp;summary=A brief primer on why Keyn is more secure than keep using passwords.&amp;source=https://keyn.app' target='blank'>
+<svg height='43px' version='1.1' viewbox='0 0 43 43' width='43px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g fill-rule='evenodd' fill='none' stroke-width='1' stroke='none'>
+<g transform='translate(21.500000, 21.500000) rotate(-90.000000) translate(-21.500000, -21.500000) '>
+<circle cx='21.5' cy='21.5' fill='#4722C3' r='21.5'></circle>
+<path d='M17,19 L17,32 L13,32 L13,19 L17,19 Z M18,14.9993086 C18,16.1107014 17.0348464,17 15.485133,17 L15.4567305,17 C13.9646211,17 13,16.1107014 13,14.9993086 C13,13.8644081 13.994,13 15.5144232,13 C17.0348464,13 17.9711537,13.8644081 18,14.9993086 Z M32,24.717063 L31.999843,31.9996628 L28.0692619,31.9996628 L28.0692619,25.2044018 C28.0692619,23.497578 27.5004612,22.3328881 26.0775174,22.3328881 C24.9915679,22.3328881 24.3447396,23.118059 24.0606532,23.8764226 C23.9567211,24.148206 23.9312091,24.526882 23.9312091,24.9064853 L23.9312091,32 L20,32 C20,32 20.0518091,20.4904255 20,19.2985909 L23.9312091,19.2985909 L23.9312091,21.0976389 C24.4529107,20.2328044 25.3872793,19 27.4742427,19 C30.0608495,19 32,20.8157395 32,24.717063 Z' fill='#FFFFFF' transform='translate(22.500000, 22.500000) rotate(-270.000000) translate(-22.500000, -22.500000) '></path>
+</g>
+</g>
+</svg>
+
+</a>
+</p>
+</div>
+</div>
+</div>
+<div class='col-2 d-none d-lg-block'>
+<div class='row pt-4'>
+<div class='col px-md-4' id='author-card'>
+<div class='author-photo'>
+<img src="/assets/images/bas.png" alt="Bas" class="img-fluid" width="80px" />
+</div>
+<ol class='mt-3'>
+<li class='name'>
+<a href="https://twitter.com/keynapp">Bas</a>
+</li>
+<li class='function'>
+co-founder @ Keyn
+</li>
+<li class='date'>
+<time class='meta-date' datetime='2018-06-17 00:00:00 UTC'>
+Jun 17, 2018
+</time>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='modal' id='animation' role='dialog' tabindex='-1'>
+<div class='modal-dialog modal-lg' role='document'>
+<div class='modal-content'>
+<div class='modal-header justify-content-end p-0'>
+<input data-dismiss='modal' src='/assets/images/close-button.svg' type='image'>
+</div>
+<div class='modal-body pr-5'>
+<div>
+<iframe allow='autoplay; fullscreen' allowfullscreen='' frameborder='0' src='https://player.vimeo.com/video/368544753'></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer>
+<div class='container-fluid'>
+<div class='row pt-5 px-5 px-sm-3 px-md-0'>
+<div class='col-12 order-1 col-sm-3 offset-sm-1 order-sm-2 col-lg-1 offset-lg-1 order-lg-1 d-lg-block pt-lg-3'>
+<img src="/assets/images/logo.svg" alt="keyn" width="80px" />
+</div>
+<div class='col-12 order-2 col-sm-10 offset-sm-1 offset-lg-0 order-sm-1 pt-3 pt-xl-4 pb-sm-3 pb-lg-0 px-0 px-lg-4 pt-4 col-lg-4 order-lg-2'>
+<p>
+Keyn is happy to talk to you about itself, future plans or important stuff like climate change and so on. Feel free to contact us at
+<a class='keyn_hello'>hello [you know it] keyn [dot] app</a>
+</p>
+</div>
+<div class='col-12 order-3 col-sm-4 order-sm-3 offset-lg-1 col-lg-2 text-lg-left pt-3 pt-xl-4'>
+<p>
+Langegracht 70
+<br>
+2312NV Leiden
+<br>
+The Netherlands
+</p>
+</div>
+<div class='col-12 order-4 col-sm-4 order-sm-4 py-sm-0 col-lg-2 py-4 text-lg-right pt-xl-2' id='socials'>
+<ul class='list-inline'>
+<li class='list-inline-item mr-2'>
+<a class='social' href='https://www.linkedin.com/company/keyn/' target='_blank'>
+<svg height='43px' version='1.1' viewbox='0 0 43 43' width='43px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g fill-rule='evenodd' fill='none' stroke-width='1' stroke='none'>
+<g transform='translate(21.500000, 21.500000) rotate(-90.000000) translate(-21.500000, -21.500000) '>
+<circle cx='21.5' cy='21.5' fill='#4722C3' r='21.5'></circle>
+<path d='M17,19 L17,32 L13,32 L13,19 L17,19 Z M18,14.9993086 C18,16.1107014 17.0348464,17 15.485133,17 L15.4567305,17 C13.9646211,17 13,16.1107014 13,14.9993086 C13,13.8644081 13.994,13 15.5144232,13 C17.0348464,13 17.9711537,13.8644081 18,14.9993086 Z M32,24.717063 L31.999843,31.9996628 L28.0692619,31.9996628 L28.0692619,25.2044018 C28.0692619,23.497578 27.5004612,22.3328881 26.0775174,22.3328881 C24.9915679,22.3328881 24.3447396,23.118059 24.0606532,23.8764226 C23.9567211,24.148206 23.9312091,24.526882 23.9312091,24.9064853 L23.9312091,32 L20,32 C20,32 20.0518091,20.4904255 20,19.2985909 L23.9312091,19.2985909 L23.9312091,21.0976389 C24.4529107,20.2328044 25.3872793,19 27.4742427,19 C30.0608495,19 32,20.8157395 32,24.717063 Z' fill='#FFFFFF' transform='translate(22.500000, 22.500000) rotate(-270.000000) translate(-22.500000, -22.500000) '></path>
+</g>
+</g>
+</svg>
+
+</a>
+</li>
+<li class='list-inline-item'>
+<a class='social' href='https://twitter.com/keynapp' target='_blank'>
+<svg height='43px' version='1.1' viewbox='0 0 43 43' width='43px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g fill-rule='evenodd' fill='none' stroke-width='1' stroke='none'>
+<g transform='translate(21.500000, 21.500000) rotate(-90.000000) translate(-21.500000, -21.500000) '>
+<circle cx='21.5' cy='21.5' fill='#4722C3' r='21.5'></circle>
+<path d='M20.7400271,18.7242192 L20.7790451,19.3297587 L20.1287455,19.255611 C17.7616548,18.9713782 15.6937019,18.0074582 13.9378929,16.3885669 L13.0794974,15.5853003 L12.8583955,16.1784818 C12.3901798,17.5007823 12.6893176,18.8972305 13.6647671,19.8364346 C14.1850068,20.3554684 14.0679528,20.4296161 13.1705393,20.1206674 C12.8583955,20.0218038 12.5852697,19.9476561 12.5592577,19.98473 C12.4682157,20.0712356 12.7803596,21.1958089 13.0274734,21.6406951 C13.3656292,22.2585925 14.0549469,22.864132 14.8092944,23.2225125 L15.4465881,23.5067453 L14.6922405,23.5191033 C13.9639049,23.5191033 13.9378929,23.5314612 14.0159289,23.7909781 C14.2760487,24.5942448 15.3035222,25.4469432 16.4480495,25.8176817 L17.2544211,26.0771986 L16.5520975,26.472653 C15.511618,27.0411186 14.2890547,27.3624253 13.0664914,27.3871412 C12.4812217,27.3994991 12,27.4489309 12,27.4860048 C12,27.6095842 13.5867311,28.3016294 14.5101566,28.5735042 C17.280433,29.3767709 20.5709492,29.0307483 23.0420878,27.659016 C24.7978968,26.6827381 26.5537059,24.7425402 27.3730834,22.864132 C27.8152872,21.8631381 28.2574909,20.0341618 28.2574909,19.1567474 C28.2574909,18.5882818 28.2965089,18.5141341 29.0248445,17.8344469 C29.4540422,17.4389926 29.857228,17.0064644 29.935264,16.8828849 C30.0653239,16.6480838 30.0523179,16.6480838 29.3890123,16.858169 C28.2835029,17.2289074 28.127431,17.1794756 28.6736827,16.6233679 C29.0768684,16.2279136 29.5580902,15.5111526 29.5580902,15.3010674 C29.5580902,15.2639936 29.3630003,15.3257833 29.1418984,15.4370049 C28.9077905,15.5605844 28.3875508,15.7459536 27.9973711,15.8571751 L27.2950474,16.0672603 L26.6577538,15.659448 C26.306592,15.4370049 25.8123643,15.1898459 25.5522444,15.1156982 C24.8889388,14.9426869 23.8744714,14.9674028 23.2761957,15.16513 C21.6504466,15.7212377 20.6229732,17.1547597 20.7400271,18.7242192 Z' fill='#FFFFFF' transform='translate(21.000000, 22.000000) rotate(-270.000000) translate(-21.000000, -22.000000) '></path>
+</g>
+</g>
+</svg>
+
+</a>
+</li>
+</ul>
+<p>
+<a href="/terms/" class="privacy">Terms of use</a>
+<br>
+<a href="/privacy/" class="privacy">Privacy policy</a>
+</p>
+</div>
+</div>
+<div class='row pb-5 pt-sm-3 pb-lg-3 px-5 px-lg-0'>
+<div class='col-12 col-lg-5 text-lg-right offset-lg-2'>
+<p class='small'>
+This project has received funding from the European Union's Horizon2020 research and innovation programme under the NGI_TRUST grant agreement no 825618.
+</p>
+</div>
+<div class='col-12 col-lg-4 offset-lg-0 text-lg-left'>
+<img src="/assets/images/eu.png" alt="EU" height="33px" />
+<img src="/assets/images/ngi_trust.png" alt="keyn" height="40px" />
+</div>
+</div>
+</div>
+</footer>
+
+<div class='fixed-bottom' id='cookie-bar'>
+<div class='row m-0 p-3'>
+<div class='col-12 col-md d-flex text-center text-md-left align-items-center'>
+<p class='m-0'>
+We use cookies to improve Keyn. Would you like some cookies?
+</p>
+</div>
+<div class='col-12 col-md text-center text-md-right pt-3 pt-md-0'>
+<a class='d-inline-block mb-3 mb-sm-0' id='cookie-bar-button-no' rel='nofollow'>
+No, thanks
+</a>
+<a class='btn my-auto mx-4' id='cookie-bar-button' rel='nofollow'>
+Yes please!
+</a>
+</div>
+</div>
+</div>
+
+<script src="https://www.google-analytics.com/analytics.js" async="" defer="defer"></script>
+<script src="/assets/javascripts/main.js"></script>
+<script>
+  amplitude.getInstance().init("081d54cf687bdf40799532a854b9a9b6", null, { includeUtm: true, includeReferrer: true, includeGclid: true, secureCookie: true });
+</script>
+<script src="/assets/javascripts/cookies.js"></script>
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-120434406-1', 'auto'); ga('send', 'pageview'); ga('set', 'anonymizeIp', true); ga('set', 'forceSSL', true);
+</script>
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2636076459771927');
+  fbq('track', 'PageView');
+</script>
+<noscript>
+<img height='1' src='https://www.facebook.com/tr?id=2636076459771927&amp;ev=PageView&amp;noscript=1' style='display:none' width='1'>
+</noscript>
+
+</body>
+</html>

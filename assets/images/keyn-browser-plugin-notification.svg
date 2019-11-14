@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="191px" height="121px" viewBox="0 0 191 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Browser plugin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Latest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Keyn-web-w/-why-block" transform="translate(-450.000000, -2068.000000)">
+            <g id="how" transform="translate(1.000000, 1715.000000)">
+                <g id="Browser-plugin" transform="translate(449.000000, 353.000000)">
+                    <polygon id="Fill-1" fill="#4722C3" points="0 -5.87378641e-05 0 120.999941 191 120.999941 189.829809 11.7475141 23.403817 11.1601354 23.403817 -5.87378641e-05"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="11" y="21" width="168" height="89"></rect>
+                    <polygon id="Fill-2" fill="#4722C3" points="27 9 45 9 45 0 27 0"></polygon>
+                    <polygon id="Fill-3" fill="#4722C3" points="49 9 67 9 67 0 49 0"></polygon>
+                    <polygon id="Fill-4" fill="#4722C3" points="70 9 88 9 88 0 70 0"></polygon>
+                    <polygon id="Fill-5" fill="#4722C3" points="91 9 109 9 109 0 91 0"></polygon>
+                    <polygon id="Fill-7" fill="#EE8C00" points="133 62.4061522 57.4976053 63 57 46 133 46"></polygon>
+                    <polygon id="Fill-7" fill="#EE8C00" points="133 83.4061522 57.4976053 84 57 67 133 67"></polygon>
+                    <g id="Plugin" transform="translate(121.000000, 23.000000)">
+                        <polygon id="Fill-11" fill="#4722C3" points="0 33 52 33 52 5 0 5"></polygon>
+                        <polygon id="Fill-12" stroke="#4722C3" fill="#4722C3" points="35.5007262 0 31 5 40 5"></polygon>
+                        <polygon id="Fill-13" fill="#FFFFFF" points="22 27 40 27 40 21 22 21"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

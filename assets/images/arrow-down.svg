@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="18px" viewBox="0 0 12 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Latest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Keyn-Setup" transform="translate(-279.000000, -497.000000)" fill="#4722C3" fill-rule="nonzero">
+            <g id="Group-10" transform="translate(108.000000, 442.000000)">
+                <g id="Group-12" transform="translate(171.000000, 55.000000)">
+                    <path d="M6,0 L6,0 C6.55228475,-1.01453063e-16 7,0.44771525 7,1 L7,15 C7,15.5522847 6.55228475,16 6,16 L6,16 C5.44771525,16 5,15.5522847 5,15 L5,1 C5,0.44771525 5.44771525,1.01453063e-16 6,0 Z" id="Rectangle"></path>
+                    <rect id="Rectangle" transform="translate(3.878680, 14.121320) rotate(-315.000000) translate(-3.878680, -14.121320) " x="-0.121320344" y="13.1213203" width="8" height="2" rx="1"></rect>
+                    <rect id="Rectangle" transform="translate(8.121320, 14.121320) rotate(-585.000000) translate(-8.121320, -14.121320) " x="4.12132034" y="13.1213203" width="8" height="2" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+	<svg width="140px" height="21px" viewBox="0 0 140 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+	        <g transform="translate(69.637395, 9.727604) rotate(-17.000000) translate(-69.637395, -9.727604) translate(2.137395, -24.772396)" fill-rule="nonzero">
+              <path d="M-0.518650647,36.9726216 C52.2360159,49.1456635 90.0486302,45.8374884 133.859151,24.6299554" stroke="#4722C3" stroke-opacity="0.3" stroke-width="2" stroke-linecap="round" transform="translate(66.670250, 34.320424) rotate(22.000000) translate(-66.670250, -34.320424) "></path>
+	            <path class="arrow-line" d="M-0.518650647,36.9726216 C52.2360159,49.1456635 90.0486302,45.8374884 133.859151,24.6299554" stroke="#4722C3" stroke-width="2" stroke-linecap="round" transform="translate(66.670250, 34.320424) rotate(22.000000) translate(-66.670250, -34.320424) "></path>
+	            <path class="arrow-head" d="M124.316747,53.6973158 L131.559388,53.6973158 C132.111673,53.6973158 132.559388,54.1450311 132.559388,54.6973158 C132.559388,55.2496006 132.111673,55.6973158 131.559388,55.6973158 L122.559388,55.6973158 L122.559388,55.4546751 L122.316747,55.4546751 L122.316747,46.4546751 C122.316747,45.9023904 122.764463,45.4546751 123.316747,45.4546751 C123.869032,45.4546751 124.316747,45.9023904 124.316747,46.4546751 L124.316747,53.6973158 Z" fill="#4722C3" transform="translate(127.802029, 50.454675) rotate(-137.000000) translate(-127.802029, -50.454675) "></path>
+	        </g>
+	    </g>
+	</svg>

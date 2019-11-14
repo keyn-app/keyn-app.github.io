@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="165px" height="90px" viewBox="0 0 165 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>key_lock</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Keyn-web-w/-why-block" transform="translate(-625.000000, -2927.000000)">
+            <g id="key_lock" transform="translate(625.000000, 2930.000000)">
+                <polygon id="Fill-1" fill="#120050" points="133 86 162 86 162 2 133 2"></polygon>
+                <g id="Group-5">
+                    <polygon id="Stroke-2" stroke="#4722C3" stroke-width="6" points="132.545455 84 162 84 162 0 132.545455 0"></polygon>
+                    <path d="M12.6233766,36.75 C12.6233766,26.9073 20.6455325,18.9 30.5064935,18.9 C40.3674545,18.9 48.3896104,26.9073 48.3896104,36.75 C48.3896104,46.5927 40.3674545,54.6 30.5064935,54.6 C20.6455325,54.6 12.6233766,46.5927 12.6233766,36.75 M59.6938442,45.5847 L92.5714286,42.7308 L92.5714286,56.7 L109.402597,56.7 L109.402597,41.2692 L124.12987,39.9903 L124.12987,63 L140.961039,63 L140.961039,38.5308 L149.376623,37.8 L149.376623,27.3 L140.961039,27.3 L124.12987,27.3 L109.402597,27.3 L92.5714286,27.3 L59.4897662,27.3 C55.4944675,15.1263 44.0219221,6.3 30.5064935,6.3 C13.6858442,6.3 0,19.9605 0,36.75 C0,53.5395 13.6858442,67.2 30.5064935,67.2 C44.2491429,67.2 55.89,58.0776 59.6938442,45.5847" id="Fill-4" fill="#EE8C00"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="89px" viewBox="0 0 80 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Label-Section</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Onepager-A" transform="translate(-680.000000, -2355.000000)" fill="#FFB72F">
+            <g id="Team" transform="translate(0.000000, 2355.000000)">
+                <g id="Label-team" transform="translate(680.000000, 0.000000)">
+                    <path d="M28.142357,78.2132089 C11.8404583,73.1603051 0,57.9628962 0,40 C0,17.90861 17.90861,0 40,0 C62.09139,0 80,17.90861 80,40 C80,57.7052171 68.4968097,72.7237201 52.5564229,77.9895152 C51.7473348,84.0178709 46.5832263,88.6666667 40.3333333,88.6666667 C34.1609674,88.6666667 29.0476157,84.1324878 28.142357,78.2132089 Z" id="Label-Section"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

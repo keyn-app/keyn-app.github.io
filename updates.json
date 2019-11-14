@@ -1,0 +1,28 @@
+{
+  "addons": {
+    "{317c1c41-6532-4d2b-a529-0c2cd4a6b27f}": {
+      "updates": [
+        { 
+          "version": "2.1.4",
+          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.1.4.xpi",
+          "update_hash": "sha256:a8a888db217248673d20f9dcaef6ad42267cfb7ecc5274d5340e5afc940dde1e"
+        },
+        { 
+          "version": "2.1.5",
+          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.1.5.xpi",
+          "update_hash": "sha256:abb3344efb39e6dd56f18cd94be801c9f853ce5fdc16b79c62116f657c6a85c4"
+        },
+        { 
+          "version": "2.1.7",
+          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.1.7.xpi",
+          "update_hash": "sha256:459ae6c284ad93ec278c153f56ccaaf121c202baaf8458b76b8908637fd860bd"
+        },
+        { 
+          "version": "2.1.9",
+          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.1.9.xpi",
+          "update_hash": "sha256:3b6036d5b56aecad673e00462cda927e4161f55788e5a0211ff86d7e032e34f2"
+        }
+      ]
+    }
+  }
+}

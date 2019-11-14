@@ -1,0 +1,1 @@
+"use strict";window.addEventListener("load",function(){var n=window.location.hash,o=$(n);null!=o&&o.find(".collapse").collapse("show")});

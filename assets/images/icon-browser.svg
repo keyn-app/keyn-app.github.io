@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="120px" viewBox="0 0 151 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon-browser</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Onepager-A" transform="translate(-160.000000, -1983.000000)" fill="#FFB72F">
+            <g id="How" transform="translate(0.000000, 1598.000000)">
+                <g id="1" transform="translate(110.000000, 385.000000)">
+                    <path d="M54,0 L197,0 C199.209139,-4.05812251e-16 201,1.790861 201,4 L201,116 C201,118.209139 199.209139,120 197,120 L54,120 C51.790861,120 50,118.209139 50,116 L50,4 C50,1.790861 51.790861,4.05812251e-16 54,0 Z M54,12 L54,116 L196,116 L196,12 L54,12 Z M57,8 C58.1045695,8 59,7.1045695 59,6 C59,4.8954305 58.1045695,4 57,4 C55.8954305,4 55,4.8954305 55,6 C55,7.1045695 55.8954305,8 57,8 Z M63,8 C64.1045695,8 65,7.1045695 65,6 C65,4.8954305 64.1045695,4 63,4 C61.8954305,4 61,4.8954305 61,6 C61,7.1045695 61.8954305,8 63,8 Z M69,8 C70.1045695,8 71,7.1045695 71,6 C71,4.8954305 70.1045695,4 69,4 C67.8954305,4 67,4.8954305 67,6 C67,7.1045695 67.8954305,8 69,8 Z" id="Icon-browser"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

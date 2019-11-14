@@ -1,0 +1,72 @@
+/* THE KEYN TEAM */
+
+Bas
+Wouter
+Frank
+
+/* OUR MISSION */
+
+Passwords are the biggest security threat of the 21st century.
+Our mission is to make logging in to websites easier, faster and more secure.
+
+/ * RESPONSIBLE DISCLOSURE /*
+
+Have you found a security vulnerability in this website or in Keyn? Please send it to security at keyn.app.
+You can use the following PGP key for encryption:
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=GOyi
+-----END PGP PUBLIC KEY BLOCK-----
+
+
+/* THANKS */
+
+Website powered by Middleman (https://middlemanapp.com/) and Github pages.
