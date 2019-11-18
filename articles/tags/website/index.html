@@ -288,15 +288,17 @@ Yes please!
 </div>
 </div>
 
-<script src="https://www.google-analytics.com/analytics.js" async="" defer="defer"></script>
 <script src="/assets/javascripts/main.js"></script>
 <script>
   amplitude.getInstance().init("081d54cf687bdf40799532a854b9a9b6", null, { includeUtm: true, includeReferrer: true, includeGclid: true, secureCookie: true, optOut: true });
 </script>
 <script src="/assets/javascripts/cookies.js"></script>
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-120434406-1" async=""></script>
 <script>
-  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-  ga('create', 'UA-120434406-1', 'auto'); ga('send', 'pageview'); ga('set', 'anonymizeIp', true); ga('set', 'forceSSL', true);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-120434406-1');
 </script>
 <script>
   !function(f,b,e,v,n,t,s)
