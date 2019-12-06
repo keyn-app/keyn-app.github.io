@@ -21,6 +21,11 @@
           "version": "2.1.9",
           "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.1.9.xpi",
           "update_hash": "sha256:3b6036d5b56aecad673e00462cda927e4161f55788e5a0211ff86d7e032e34f2"
+        },
+        { 
+          "version": "2.2.1",
+          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.2.1.xpi",
+          "update_hash": "sha256:9b1a50cdeefaced4e8e7236672785e70ba17706b31003a1d9966ebba00c88004"
         }
       ]
     }
