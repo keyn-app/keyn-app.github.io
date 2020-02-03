@@ -61,18 +61,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://keyn.app/installed/</loc>
-    <lastmod>2020-02-03T00:00:00+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://keyn.app/nl/installed/</loc>
-    <lastmod>2020-02-03T00:00:00+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://keyn.app/articles/tags/launch/</loc>
     <lastmod>2020-02-03T00:00:00+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -320,6 +308,18 @@
   </url>
   <url>
     <loc>https://keyn.app/nl/faq_raw/</loc>
+    <lastmod>2020-02-03T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://keyn.app/installed/</loc>
+    <lastmod>2020-02-03T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://keyn.app/nl/installed/</loc>
     <lastmod>2020-02-03T00:00:00+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="28px" viewBox="0 0 63 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-490.000000, -91.000000)">
+            <g id="Group-2" transform="translate(490.000000, 91.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="63" height="28"></rect>
+                <rect id="Rectangle" fill="#DDE1E5" x="0" y="0" width="63" height="6"></rect>
+                <path d="M0.5,26 L62.5,26" id="Line" stroke="#BFBDBF" stroke-width="0.3" stroke-linecap="square"></path>
+                <g id="Group" transform="translate(0.000000, 9.000000)" fill="#F1F3F4">
+                    <rect id="Rectangle" x="0" y="0" width="16" height="14"></rect>
+                    <circle id="Oval" cx="16" cy="7" r="7"></circle>
+                    <polygon id="Star" stroke="#BDC1C5" points="12.5 9.25 10.4427516 10.3315595 10.8356511 8.04077974 9.17130219 6.41844052 11.4713758 6.08422026 12.5 4 13.5286242 6.08422026 15.8286978 6.41844052 14.1643489 8.04077974 14.5572484 10.3315595"></polygon>
+                </g>
+                <g id="extension-icon" transform="translate(30.000000, 12.000000)">
+                    <g id="Logo_inner" transform="translate(0.421875, 0.000000)">
+                        <path d="M4.078125,0 C6.33041125,0 8.15625,1.81974586 8.15625,4.06451613 C8.15625,5.90802105 6.92482712,7.46487153 5.23707889,7.96255656 C5.1754306,8.54504532 4.68008587,9 4.078125,9 C3.43461464,9 2.91294643,8.48007261 2.91294643,7.83870968 L2.91917111,7.96255656 C1.23142288,7.46487153 -8.8817842e-16,5.90802105 -8.8817842e-16,4.06451613 C-8.8817842e-16,1.81974586 1.82583875,0 4.078125,0 Z" id="Combined-Shape" fill="#4722C3"></path>
+                        <polygon id="K" fill="#FFFFFF" points="3.82636482 4.22844828 3.45591421 4.65517241 3.45591421 5.625 2.8125 5.625 2.8125 2.25 3.45591421 2.25 3.45591421 3.78232759 4.75736568 2.25 5.5470104 2.25 4.26505633 3.72413793 5.625 5.625 4.83048094 5.625"></polygon>
+                    </g>
+                </g>
+                <path d="M46,12 L46,21" id="Line-4" stroke="#CFD0D1" stroke-width="0.5" stroke-linecap="square"></path>
+                <g id="Group-3" transform="translate(52.000000, 12.000000)">
+                    <circle id="Oval" fill="#5F6367" cx="4" cy="4" r="4"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="3.95" cy="2.25" r="1.25"></circle>
+                    <path d="M1.5,5.22760694 C1.5,4.83657604 2.69438815,4 3.966614,4 C5.23883986,4 6.5,4.83657604 6.5,5.22760694 C6.5,5.61863784 5.253185,7 4,7 C2.746815,7 1.5,5.61863784 1.5,5.22760694 Z" id="Path-4" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
