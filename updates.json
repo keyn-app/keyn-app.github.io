@@ -4,38 +4,43 @@
       "updates": [
         { 
           "version": "2.1.4",
-          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.1.4.xpi",
+          "update_link": "https://keyn.app/assets/downloads/keyn-firefox-2.1.4.xpi",
           "update_hash": "sha256:a8a888db217248673d20f9dcaef6ad42267cfb7ecc5274d5340e5afc940dde1e"
         },
         { 
           "version": "2.1.5",
-          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.1.5.xpi",
+          "update_link": "https://keyn.app/assets/downloads/keyn-firefox-2.1.5.xpi",
           "update_hash": "sha256:abb3344efb39e6dd56f18cd94be801c9f853ce5fdc16b79c62116f657c6a85c4"
         },
         { 
           "version": "2.1.7",
-          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.1.7.xpi",
+          "update_link": "https://keyn.app/assets/downloads/keyn-firefox-2.1.7.xpi",
           "update_hash": "sha256:459ae6c284ad93ec278c153f56ccaaf121c202baaf8458b76b8908637fd860bd"
         },
         { 
           "version": "2.1.9",
-          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.1.9.xpi",
+          "update_link": "https://keyn.app/assets/downloads/keyn-firefox-2.1.9.xpi",
           "update_hash": "sha256:3b6036d5b56aecad673e00462cda927e4161f55788e5a0211ff86d7e032e34f2"
         },
         { 
           "version": "2.2.1",
-          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.2.1.xpi",
+          "update_link": "https://keyn.app/assets/downloads/keyn-firefox-2.2.1.xpi",
           "update_hash": "sha256:9b1a50cdeefaced4e8e7236672785e70ba17706b31003a1d9966ebba00c88004"
         },
         { 
           "version": "2.2.2",
-          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.2.2.xpi",
+          "update_link": "https://keyn.app/assets/downloads/keyn-firefox-2.2.2.xpi",
           "update_hash": "sha256:95dd5ba656fca7bb21c5fdf466665a398b4391cbb4d66a21eca02afdca3c2c81"
         },
         { 
           "version": "2.3.0",
-          "update_link": "https:/keyn.app/assets/downloads/keyn-firefox-2.3.0.xpi",
+          "update_link": "https://keyn.app/assets/downloads/keyn-firefox-2.3.0.xpi",
           "update_hash": "sha256:04b84de5b882d40a4e9270d57c191c9912574d8d7691e92b4334115f0a8b95b6"
+        },
+        { 
+          "version": "2.4.0",
+          "update_link": "https://keyn.app/assets/downloads/keyn-firefox-2.4.0.xpi",
+          "update_hash": "sha256:10a0bb4a125df26c645206f6e38a0b533516129572b47441fde64f913ec01228"
         }
       ]
     }
