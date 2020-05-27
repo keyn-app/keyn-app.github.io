@@ -70,7 +70,7 @@ Can't find the answer to your question? Feel free to contact us at
 <div class='col col-md-11 my-auto py-auto'>
 <h4 class='question mb-0'>
 <a class='drop-down' data-toggle='collapse' href='#faq-question-0'>
-Wow, there's a lot of text here.. Do you have a video?
+Wow, there's a lot of text here... Do you have a video?
 </a>
 </h4>
 </div>
@@ -105,11 +105,9 @@ What is Keyn? How does it work?
 </div>
 <div class='row collapse pb-3' id='faq-question-1'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>Keyn is a new way to log in to websites. It consists of a mobile application and a browser extension that communicate with each other over an end-to-end encrypted channel.</p>
-
-<p>Instead of typing in your username and password on a website, you log in by authorising a request on your phone. This sends your username and password to the browser, which fills it into the right forms.</p>
-
-<p>Since you don’t need to remember your username and password anymore, you can just as easy use randomly generated passwords, which are long and complex. This makes using Keyn more secure as well.</p>
+<p>Keyn is a new way to log in to websites. It consists of a mobile application and a browser extension that communicate with each other over an end-to-end encrypted channel.<br />
+Instead of typing in your username and password on a website, you log in by authorising a request on your phone. This sends your username and password to the browser, which fills it into the right forms.<br />
+Since you don’t need to remember your username and password anymore, you can just easily use randomly generated passwords, which are long and complex. This makes using Keyn more secure as well.</p>
 
 </div>
 </div>
@@ -131,13 +129,10 @@ Why should I use Keyn?
 </div>
 <div class='row collapse pb-3' id='faq-question-2'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>Our dependency on the internet is steadily increasing, but so is the number of accounts that we have. While it would be quite convenient to use the same username and password for each of these accounts, this is not very secure. <br />
-If one of these websites gets hacked and their data leaks, evil hackers may obtain your password and use this to access to all of your other accounts that are secured with the same password. Since we have little influence on how well these websites protect your data, the one thing we can do is use strong passwords that are unique per website. But who can remember hundreds of complex passwords?</p>
-
-<p>We developed Keyn, so you don’t need to think about this. By storing the passwords on your phone, you can simply login by authorizing a login request with the biometric authentication mechanisms your phone has, like a fingerprint scanner of face recognition. Since you don’t to remember the passwords anymore, you can just as easy use randomly generated passwords, which are long and complex.</p>
-
-<p>The idea is that Keyn makes logging in easier, because you don’t need to think about passwords anymore, and more secure because you can use a unique and strong passwords for each website. <br />
-You should use Keyn if you agree with this ;).</p>
+<p>Our dependency on the Internet is steadily increasing, but so is the number of accounts that we have. While it would be quite convenient to use the same username and password for each of these accounts, this is not very secure. <br />
+If one of these websites gets hacked and their data leaks, evil hackers may obtain your password and use this to access all of your other accounts that are secured with the same password. Since we have little influence on how well these websites protect your data, the one thing we can do, is using strong passwords that are unique per website. But who can remember hundreds of different complex passwords?<br />
+We have developed Keyn, so you don’t need to think about this. By storing the passwords on your phone, you can simply login by authorizing a request with the biometric authentication mechanisms your phone has, like a fingerprint scanner of face recognition. Since you don’t need to remember the passwords anymore, you can just easily use randomly generated passwords, which are long and complex.<br />
+Keyn makes logging in easier, because you don’t need to remember a single password anymore, and more secure because you can use unique and strong passwords for each website.</p>
 
 </div>
 </div>
@@ -159,11 +154,9 @@ How does my computer communicate with my mobile phone?
 </div>
 <div class='row collapse pb-3' id='faq-question-3'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>After installing the Keyn browser extension, some cryptraphic keys are generated and put into a QR-code. When you scan this QR-code with the Keyn app, it uses the keys to setup a secure channel between the app and browser extension. The contents of all messages that are sent on this channel can only be decrypted by the phone and the browser extension.</p>
-
-<p>When you send a message from the browser extension to the app (for a example, a login request), the server sends this to the phone as a push notification. The response is sent back by putting it on a message queue which the browser extension keeps checking for a few minutes after a request has been sent.</p>
-
-<p>We call the process of connecting an app to a browser extension <strong>pairing</strong>. You can pair one app with as many browsers as you want, but a browser can only be paired with one app at the same time.</p>
+<p>After installing the Keyn browser extension, some cryptraphic keys are generated and put into a QR-code. When you scan this QR-code with the Keyn app, it uses the keys to setup a secure channel between the app and browser extension. The contents of all messages that are sent on this channel can only be decrypted by the phone and the browser extension.<br />
+When you send a message from the browser extension to the app (for a example, a login request), the server sends this to the phone as a push notification. The response is sent back by putting it on a message queue which the browser extension keeps checking for a few minutes after a request has been sent.<br />
+We call the process of connecting an app to a browser extension <strong>pairing</strong>. You can pair one app with as many browsers as you want, but a browser can only be paired with one app at the same time.</p>
 
 </div>
 </div>
@@ -185,16 +178,13 @@ How secure is Keyn?
 </div>
 <div class='row collapse pb-3' id='faq-question-4'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>The main security advantage that Keyn offers is the change it delivers to the attack model. The target for hackers is usually the website. If a cybercriminal is able to gain access to a website, he can obtain millions of username/password combinations at the same time. These are usually hashed, which means he still does need to some cracking to actually obtain the passwords, but if the password is easy to guess or not long enough, this usually succeeds within a few days.</p>
-
-<p>With Keyn, it is much easier to use long and complex passwords, because you don’t need to remember them anymore. This implies your password is much less likely to be cracked. And even if it does, the damage is less because you only used the password for that particular website.<br />
-Since Keyn only stores the passwords on your phone and not in the cloud, this means an attacker would have to hack your phone to gain access. Modern smartphones are not unhackable, but they are pretty secure and most known attacks require physical access to the device. This means that in order to obtain a list of millions of username/password combinations, an attacker now has to hack millions of phones he has physical access to, instead of one website remotely.</p>
-
-<p>That said, we also want to be honest about security. We do not claim that Keyn is unhackable (you shouldn’t believe anyone who claims that anyway).<br />
+<p>The main security advantage that Keyn offers is the change it delivers to the attack model. The target for hackers is usually the website. If a cybercriminal is able to gain access to a website, he can obtain millions of username/password combinations at the same time. These are usually hashed, which means he still does need to do some cracking to actually obtain the passwords, but if the password is easy to guess or not long enough, this usually succeeds within a few days.<br />
+With Keyn, it is much easier to use long and complex passwords, because you don’t need to remember them anymore. This implies that your password is much less likely to be cracked. And even if it does, the damage is less because you only used the password for one particular website.<br />
+Since Keyn only stores the passwords on your phone and not in the cloud, this means an attacker would have to hack your phone to gain access. Modern smartphones are not unhackable, but they are pretty secure and most known attacks require physical access to the device. This means that in order to obtain a list of millions of username/password combinations, an attacker now has to hack millions of phones he has physical access to, instead of one website remotely.<br />
+That said, we also want to be honest about security. We do not claim that Keyn is unhackable (you shouldn’t believe anyone who claims that anyway).<br />
 We do promise that Keyn has been designed and developed with security as one of its core values, and that we will continue to do so in the future.<br />
-We also promise to be transparant about our security and inform you if your data is or has been at risk.</p>
-
-<p>If you are interested in the technical details of Keyn’s security, you can read <a href="/articles/2018/06/17/keyn-security/">Bas’ primer about the security of Keyn</a>.</p>
+We also promise to be transparant about our security and inform you if your data is or has been at risk.<br />
+If you are interested in the technical details of Keyn’s security, you can read <a href="/articles/2018/06/17/keyn-security/">Bas’ primer about the security of Keyn</a>.</p>
 
 </div>
 </div>
@@ -216,11 +206,9 @@ What if I lose or change my phone?
 </div>
 <div class='row collapse pb-3' id='faq-question-5'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>When you have Keyn installed, you must make a paper back-up by writing down 12 words. These words represent your unique and randomly generated seed.</p>
-
-<p>All your passwords are derived from this seed using a deterministic algorithm. This sounds fancy, but it just means that you will always be able to generate your password if you have the recipe (the algorithm), the ingredients (the websites you have an account for, the usernames and number of times you changed your password. These are encrypted and stored on Keyn’s server, so you don’t need to remember them) and the secret ingredient (the seed).</p>
-
-<p>If you enter the seed (the 12 words of the paper backup) on a new phone, Keyn will regenerate all your password for you.</p>
+<p>When you have Keyn installed, you must make a paper back-up by writing down 12 words. These words represent your unique and randomly generated seed.<br />
+All your passwords are derived from this seed using a deterministic algorithm. This sounds fancy, but it just means that you will always be able to generate your passwords if you have the secret (the seed), the recipe (the algorithm) and the ingredients (the websites you have an account for, the usernames and the number of times you’ve changed your password. These are encrypted and stored on Keyn’s server, so you don’t need to remember ‘the ingedrients’). <br />
+If you enter the seed (the 12 words of the paper backup) on a new phone, Keyn will restore all your passwords automatically.</p>
 
 </div>
 </div>
@@ -242,7 +230,7 @@ How is Keyn different from a password manager?
 </div>
 <div class='row collapse pb-3' id='faq-question-6'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>Unlike most password managers, you don’t have a master password that you use to encrypt all your passwords. And unlike other password managers Keyn does not store your sensitive data in the cloud. Keyn offers you a secure and user-friendly solution to login on every website.</p>
+<p>Unlike most password managers, you don’t have a master password that encrypts all your passwords. And unlike other password managers Keyn does not store your sensitive data in the cloud. Keyn offers you a secure and user-friendly solution to login on every website.</p>
 
 </div>
 </div>
@@ -264,7 +252,7 @@ Where are my passwords stored?
 </div>
 <div class='row collapse pb-3' id='faq-question-7'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>Your passwords are securely stored on your mobile phone only.</p>
+<p>Your passwords are securely stored on your mobile phone only. You are the owner of your own passwords.</p>
 
 </div>
 </div>
@@ -286,15 +274,13 @@ What information does Keyn store?
 </div>
 <div class='row collapse pb-3' id='faq-question-8'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>In order for the back-up to work correctly, Keyn stores the following information</p>
-
+<p>In order for the back-up to work correctly, Keyn stores the following information:</p>
 <ul>
   <li>Websites users have an account for</li>
-  <li>Username</li>
-  <li>Times a password has been changed</li>
+  <li>Usernames</li>
+  <li>Times a password has been changed<br />
+A more detailed description of all personal information that we process is described in the <a href="/privacy">privacy policy</a></li>
 </ul>
-
-<p>A more detailed description of all personal information that we process is described in the <a href="/privacy">privacy policy</a></p>
 
 </div>
 </div>
@@ -329,7 +315,7 @@ On iOS 12.0 and later, you can set Keyn as a password provider. This allows iOS 
 <div class='col col-md-11 my-auto py-auto'>
 <h4 class='question mb-0'>
 <a class='drop-down' data-toggle='collapse' href='#faq-question-10'>
-Does Keyn support one-time passwords?
+Does Keyn support 2FA / one-time passwords?
 </a>
 </h4>
 </div>
@@ -361,7 +347,7 @@ Does Keyn work for all browsers?
 </div>
 <div class='row collapse pb-3' id='faq-question-11'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>Currently, Keyn works for Google Chrome and Mozilla Firefox. We’re working hard on Safari and Edge plugins as well.</p>
+<p>Keyn’s browser extension is available for the four major browsers: Google Chrome, Mozilla Firefox, Microsoft Edge and Safari.</p>
 
 </div>
 </div>
@@ -383,10 +369,13 @@ How do I add a new account to Keyn?
 </div>
 <div class='row collapse pb-3' id='faq-question-12'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>You can add a new account to Keyn by logging in on a website as you’d normally do. If you have the Keyn browser extension installed, it will ask you if you want to add your account to Keyn.<br />
-Just authorize the request to add the site on your phone with your fingerprint and you’re good to go!</p>
-
-<p>You can also add an account manually from the browser extension menu or in the app.</p>
+<p>There are three ways to add a new account to Keyn:</p>
+<ol>
+  <li>You can add a new account to Keyn by logging in on a website as you’d normally do on your computer. If you have the Keyn browser extension installed, it will ask you if you want to add your account to Keyn.<br />
+Just authorize the request to add the site on your phone with your fingerprint and you’re good to go!</li>
+  <li>You can add a new account manually from the browser extension menu or in the app.</li>
+  <li>In the browser extension’s menu, you can get an overview of all your accounts. In this accountoverview you can import multiple accounts at once using a CSV-file.</li>
+</ol>
 
 </div>
 </div>
@@ -408,7 +397,7 @@ Can I still see my usernames and passwords?
 </div>
 <div class='row collapse pb-3' id='faq-question-13'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>Yes, you can view your credentials for every account in the Keyn app.</p>
+<p>Yes, you can view your credentials for every account in the Keyn app on your smartphone. In the browser extension’s menu you can also go to an account overview page, where you can retrieve every password individually from the Keyn app.</p>
 
 </div>
 </div>
@@ -430,18 +419,15 @@ How do I turn off the built-in password manager in Google Chrome?
 </div>
 <div class='row collapse pb-3' id='faq-question-14'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
-<p>If you save your login data in Google Chrome, it may cause a conflict when you use Keyn, when both try to fill in your credentials. Therefore, we recommend that you disable the password auto-fill option in Google Chrome.</p>
-
-<p><img src="/assets/images/turn-off-autofill.png" alt="Disable password auto-fill in Google Chrome" /></p>
-
+<p>If you save your login data in Google Chrome, it may cause a conflict when you use Keyn, when both try to fill in your credentials. Therefore, we recommend that you disable the password auto-fill option in Google Chrome.<br />
+<img src="/assets/images/turn-off-autofill.png" alt="Disable password auto-fill in Google Chrome" /></p>
 <ol>
   <li>Click the Chrome menu in the toolbar</li>
   <li>Select ‘Settings’</li>
   <li>Under Auto-fill, click ‘Passwords’</li>
-  <li>Turn off ‘Auto Sign-in’</li>
+  <li>Turn off ‘Auto Sign-in’<br />
+On this setting page, you can also delete already saved passwords.</li>
 </ol>
-
-<p>On this setting page, you can also delete already saved passwords.</p>
 
 </div>
 </div>
@@ -464,7 +450,7 @@ Why is jailbreaking or rooting my phone a security risk for Keyn?
 <div class='row collapse pb-3' id='faq-question-15'>
 <div class='col col-md-11 col-lg-10 pb-md-5'>
 <p>Normally, the security model of iOS or Android does not allow apps to read data of one another. When a phone is jailbroken or rooted, this security measure is removed. Additionally, the device becomes more vulnerable to malware infections.<br />
-Since all your password are stored on your device with Keyn, the security of the OS is of vital importance to the security of your passwords. Use Keyn on a jailbroken or rooted device at your own risk!</p>
+Since all your passwords are stored on your device with Keyn, the security of the OS is of vital importance to the security of your passwords. Use Keyn on a jailbroken or rooted device at your own risk!</p>
 
 </div>
 </div>
