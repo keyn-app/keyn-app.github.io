@@ -1,4 +1,4 @@
-/* THE KEYN TEAM */
+/* THE CHIFF TEAM */
 
 Bas
 Wouter
@@ -11,7 +11,7 @@ Our mission is to make logging in to websites easier, faster and more secure.
 
 / * RESPONSIBLE DISCLOSURE /*
 
-Have you found a security vulnerability in this website or in Keyn? Please send it to security at keyn.app.
+Have you found a security vulnerability in this website or in Chiff? Please send it to security at chiff.app.
 You can use the following PGP key for encryption:
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
